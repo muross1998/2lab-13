@@ -1,0 +1,8 @@
+module MatrixModule
+{
+    interface MatrixObj
+    {
+        float calcDet(in float a11, in float a12, in float a21, in float a22);
+        float calcScaledSum(in float a11, in float a12, in float a21, in float a22, in float alpha);
+    };
+};
